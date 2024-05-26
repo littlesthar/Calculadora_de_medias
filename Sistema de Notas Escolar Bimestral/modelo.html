@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Escolar</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>PEI - E.E. Prof. Celso Piva</h1>
+    </header>
+    <section>
+        <div id="titulo">
+            Sistema de Notas Escolar Bimestral
+        </div>
+        <div id="info">
+            <br>
+            Nome do aluno: 
+            <p><input type="text" name="aluno" id="aluno"></p>
+            Turma: 
+            <p><input type="text" name="turma" id="turma"></p>
+        </div>
+        <div id="infonotas">
+            <br>
+            <p><strong>NOTAS</strong></p>
+            <p>1º Bimestre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               2º Bimestre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               3º Bimestre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               4º Bimestre</p>
+            <input type="number" name="nota1" id="nota1">&nbsp;&nbsp;<input type="number" name="nota2" id="nota2">&nbsp;&nbsp;<input type="number" name="nota3" id="nota3">&nbsp;&nbsp;<input type="number" name="nota4" id="nota4">
+        </div>
+        <div id="botaocalc">
+            <br>
+            <input type="button" value="Calcular" id="calc" onclick="calcular()">
+            <br>
+            <br>
+        </div>    
+    </section>
+    <br>
+    <section>
+        <div id="titulo">
+            RESULTADO
+            <br>
+            <br>
+        </div>
+        <div id="resultado">
+            Por favor, preencha os campos mais acima corretamente e em seguida clique em calcular para que os resultados sejam exibidos aqui.
+        </div>
+    </section>
+    <footer>
+         <p>&copy; Esther - Juciele </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
