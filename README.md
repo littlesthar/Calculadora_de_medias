@@ -11,6 +11,10 @@ Status: Developed ✔️
 + Allows you to add as many notes as necessary.
 + Intuitive and easy to use interface.
 
+https://github.com/littlesthar/Calculadora_de_medias/assets/163039382/e9b0c2a8-a5c8-4e02-a09b-886c69eddd83
+
+
+
   
 
 
